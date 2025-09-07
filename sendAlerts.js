@@ -127,7 +127,6 @@ async function main(){
   // e.g., "≤1d=1 • 2–3d=2 • 4–7d=3 (total 6)"
   const body  = `\u22641d=${c1} • 2–3d=${c3} • 4–7d=${c7} (total ${total})`;
 
-  const tokenObjs = await getAllTokensWithRefs();
   
   console.log(`Alerts sent! Success: ${result.successCount}, Failure: ${result.failureCount}`);
 }
